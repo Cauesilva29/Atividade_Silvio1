@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin:0;
+        padding: 0;
+        background-color: lightgray;
+        text-align: justify;
+    }
+
+    
+    .container{/*css da div principal do site 1*/
+        display: flex;/*display pega a página e a deixa solta*/
+        flex-wrap: wrap;
+        justify-content:space-around;
+       padding: 1px;
+    }
+
+    .profissoes{ /*css das boxes do site principal*/
+        margin: 20px;
+        background-color: black;
+        border: 10px double lightgreen;
+        border-radius: 20px; /*arredondamento da borda*/
+        padding: 30px; /*espaço interno*/
+        width: 30%;
+        text-align: center;
+        color: lightgreen;
+    }
+
+    h1{
+        text-align: center;
+        color:blueviolet;
+    }
+
+    .conteudo{/*css da página programador web*/
+        border: 20px;
+        padding: 50px;
+    }
+
+
+    .web{
+        justify-content:space-evenly;
+        display: flex;
+        padding: 30px;
+        
+    
+
+    }
+
+    .lista{
+        display: flex;
+        justify-content: space-around;
+
+        border: 0px;
+        padding: 20px;
+    }
+    
+
+    h2{/*css dos subtítulos*/
+        text-align: center;
+        color:blueviolet;
+    }
+
+    .nocode{/*css da página programador no code*/
+        text-align: center;
+    }
+
+    .procode{
+        border: 20px;
+        padding: 50px;
+    }
+
+    .analista{/*conteudo da página analista*/
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .conteudoana{
+        padding: 30px;
+        margin: 10px;
+
+    }
+
